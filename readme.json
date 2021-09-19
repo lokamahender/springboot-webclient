@@ -1,0 +1,10 @@
+POST:
+http://localhost:8090/passenger/details
+
+{
+"name": "John Doe",
+"trips": 250,
+"airline": 5
+}
+
+GET: http://localhost:8090/get/airline/details/10
