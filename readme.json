@@ -8,3 +8,13 @@ http://localhost:8090/passenger/details
 }
 
 GET: http://localhost:8090/get/airline/details/10
+
+POST: http://localhost:8090/passenger/details/modify
+
+Payload:
+
+{
+    "name": "John Doe",
+    "trips": 250,
+    "airline": 5
+}
